@@ -9,8 +9,7 @@ yet to be implemented some crud
 this readme is a mixure of personal notes and configuration commands that might come in handy, since this isnt a project for production but just a test i might clean it or not (will probably end up being used for me to recycle stuff for other projects)
 
 
-install docker to dockerize microsoft's software, remember to spring holy water all over before
-going microsoft
+install docker to dockerize microsoft's software, remember I would never recommend microsoft over open software
 https://docs.docker.com/install/linux/docker-ce/ubuntu/#install-docker-ce-1
 
 add repository update and
@@ -30,7 +29,7 @@ $ docker-compose --version
 
 download docker image (aka docker pull)
 $ sudo docker pull microsoft/mssql-server-linux
-por el momento funciona pero se supone ke lo mueven todo a cacasoft servers
+por el momento funciona pero se supone ke lo mueven todo al software de evilcorp
 
 since cookiecutter will link us a postgres and could ask to use docker will focus on an normal django installation
 
