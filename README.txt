@@ -53,4 +53,12 @@ python3 test.py (decided to place it at home)
 
 now time to install the dependencies on the environment
 
+(changed settings)
+pipenv shell 
+python3 manage.py migrate
+//applied migrations
+
+
+Docker technology and the package django-pyodbc-azure, you will be able to connect your Django application to MSSQL database locally using the latest version of Ubuntu (Ubuntu 18), even though MSSQL is not officially supported yet
+
 
