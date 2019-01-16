@@ -1,3 +1,14 @@
+working django project with mssql
+
+the project works yet it does nothing really functional other than working
+mssql doesnt really have official django support so if you are coming from somewhere else I totally recommend postgresql or anything which isnt related to microsoft
+https://www.linkedin.com/pulse/postgresql-vs-ms-sql-server-girish-chander/
+
+yet to be implemented some crud
+
+this readme is a mixure of personal notes and configuration commands that might come in handy, since this isnt a project for production but just a test i might clean it or not (will probably end up being used for me to recycle stuff for other projects)
+
+
 install docker to dockerize microsoft's software, remember to spring holy water all over before
 going microsoft
 https://docs.docker.com/install/linux/docker-ce/ubuntu/#install-docker-ce-1
