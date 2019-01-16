@@ -74,10 +74,28 @@ WSGI_APPLICATION = 'mssql.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/2.1/ref/settings/#databases
 
+DB_ENGINE = 'sql_server.pyodbc'
+DB_NAME = 'django_mssql_test'
+DB_USER = 'sa'
+DB_PASSWD = 'StrongPass123'
+HOST = '127.0.0.1'
+PORT = '1433'
+DB_OPTIONS = {
+    'driver': 'FreeTDS',
+    'unicode_results': True,
+    'host_is_server': True,
+    'extra_params': 'tds_version=7.3;',
+}
+
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': DB_ENGINE,
+        'NAME': DB_NAME,
+        'USER': DB_USER,
+        'PASSWORD': DB_PASSWD,
+        'HOST': HOST,
+        'PORT': PORT,
+        'OPTIONS': DB_OPTIONS
     }
 }
 
